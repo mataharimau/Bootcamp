@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Week01
+//  Week01Homework
 //
-//  Created by Audrey Tam on 21/5/20.
+//  Created by Audrey M Tam on 28/5/20.
 //  Copyright © 2020 Razeware. All rights reserved.
 //
 

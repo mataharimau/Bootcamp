@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     let roundedValue = slider.value.rounded()
     currentValue = Int(roundedValue)
     startNewGame()
+    print("View loaded.")
   }
 
   @IBAction func showAlert() {

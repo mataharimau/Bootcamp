@@ -29,7 +29,8 @@ class ViewController: UIViewController {
   }
 
   @IBAction func showAlert() {
-    
+    let roundedValue = slider.value.rounded()
+    currentValue = Int(roundedValue)
     let difference = abs(targetValue - currentValue)
     var points = 100 - difference
     
@@ -66,8 +67,8 @@ class ViewController: UIViewController {
   }
   
   @IBAction func sliderMoved(_ slider: UISlider) {
-    let roundedValue = slider.value.rounded()
-    currentValue = Int(roundedValue)
+//    let roundedValue = slider.value.rounded()
+//    currentValue = Int(roundedValue)
   }
   
   func startNewRound() {

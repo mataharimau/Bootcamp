@@ -33,7 +33,6 @@ class ViewController: UIViewController {
     currentValue = Int(roundedValue)
     let difference = abs(targetValue - currentValue)
     var points = 100 - difference
-    
     score += points
     
     let title: String
